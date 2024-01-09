@@ -4,11 +4,13 @@
 
 Plugin for [Dotbot][dotbot_repo], that adds ```git``` directive, which allows you to clone or pull git repositories. 
 
+*Note:* This fork diverges from upstream, with the addition of recursive support
+
 ## Installation
 
 1. Simply add this repo as a submodule of your dotfiles repository:
 ```
-git submodule add https://github.com/DrDynamic/dotbot-git.git
+git submodule add https://github.com/camflan/dotbot-git.git
 ```
 
 2. Pass this folder (or directly git.py file) path with corresponding flag to your [Dotbot][dotbot_repo] script:
